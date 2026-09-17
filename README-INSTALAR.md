@@ -6,7 +6,7 @@ Dois agentes Claude Code que continuam a linha que o Eco começa: **o Eco decide
 
 ## Instalar (macOS ou Linux, com Claude Code instalado)
 ```bash
-mkdir -p ~/.claude/agents ~/.claude/skills ~/.claude/tools ~/inubia-conteudo/{o-copy,o-rs}/outputs ~/inubia-conteudo/referencias ~/inubia-conteudo/rascunhos-eco ~/inubia-conteudo/revisao
+mkdir -p ~/.claude/agents ~/.claude/skills ~/.claude/tools ~/inubia-conteudo/{o-copy,o-rs}/outputs ~/inubia-conteudo/o-rs/inputs ~/inubia-conteudo/referencias ~/inubia-conteudo/rascunhos-eco ~/inubia-conteudo/revisao
 cp agents/copy.md agents/rs.md ~/.claude/agents/
 cp marca.md ~/.claude/marca.md
 cp tools/marca-gate.sh ~/.claude/tools/ && chmod +x ~/.claude/tools/marca-gate.sh
