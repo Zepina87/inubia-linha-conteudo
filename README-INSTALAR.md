@@ -12,6 +12,7 @@ cp marca.md ~/.claude/marca.md
 cp tools/marca-gate.sh ~/.claude/tools/ && chmod +x ~/.claude/tools/marca-gate.sh
 cp -R skills/ghost-check ~/.claude/skills/
 cp referencias/* ~/inubia-conteudo/referencias/
+cp inputs/* ~/inubia-conteudo/o-copy/inputs/
 bash ~/.claude/tools/marca-gate.sh --auto-teste     # tem de dizer "auto-teste: OK"
 ```
 Depois, numa sessão Claude Code: "usa o agente copy para verificar este alvo" ou "usa o agente rs para preparar o pacote do slug X". Os agentes lêem `~/.claude/marca.md` sozinhos no arranque.
