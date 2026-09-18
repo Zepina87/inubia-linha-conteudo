@@ -1,5 +1,5 @@
 # Factos da marca Inubia (PT e ES): fonte única para O Copy e O RS
-**Ficheiro partilhado | v1.1 | 2026-09-17 | Donos: José Pina e Liliana Viríssimo. Só eles alteram.**
+**Ficheiro partilhado | v1.2 | 2026-09-18 | Donos: José Pina e Liliana Viríssimo. Só eles alteram.**
 **Origem:** proposta `marca.md` do relatório de marketing do Fábio (ClickUp doc `8cnwgk2-114575`, página 4, 17-09-2026), cruzada com a KB canónica da casa. Onde as duas divergem, a KB da casa ganha e a divergência está marcada como tal.
 
 > **Regra:** nada que não esteja aqui, ou nas fontes canónicas que este ficheiro aponta, pode ser afirmado como facto por um agente da linha de conteúdo. Os agentes carregam este ficheiro antes de qualquer trabalho. Um facto marcado "a confirmar" ou "pendente" NÃO entra em peça publicável.
@@ -24,16 +24,16 @@
 | Entidade legal | Brasfone, Lda. (sociedade por quotas) | |
 | NIF / NIPC | 506079031 | dígito de controlo validado, dado por José a 16-09-2026 |
 | Grupo | Grupo Brasfone | |
-| Sede PT | Faro | Morada exacta segundo o relatório do Fábio: Rua Felipe Ferrer 25 EC esq LJD, 8005-334 Faro. **A confirmar** no HTML servido antes de entrar em JSON-LD ou em peça |
+| Sede PT | Faro | Rua Felipe Ferrer 25 EC esq LJD, 8005-334 Faro. Verificado no HTML servido de inubia.pt/contactos e de brasfone.pt a 18-09-2026. **Divergência:** amperia.pt escreve "Rua Filipe Ferrer": corrigir lá, o NAP tem de ser igual em todo o lado |
 | Escritório ES | Barcelona | verificado no HTML servido de inubia.es a 17-09-2026 |
 | Telefone ES | +34 518 88 07 58 | verificado no HTML servido de inubia.es a 17-09-2026 |
 | Email ES | inubia@inubia.es | verificado no HTML servido de inubia.es a 17-09-2026 |
-| Telefone PT | 912 899 191 | relatório do Fábio; **não estava no HTML servido de inubia.pt a 17-09-2026**. Confirmar antes de publicar |
-| Email PT | hello@inubia.pt | idem |
+| Telefone PT | 912 899 191 (formato do site: +351 91 289 91 91) | verificado no HTML servido de inubia.pt/contactos, brasfone.pt e amperia.pt a 18-09-2026 |
+| Email PT | hello@inubia.pt | verificado em inubia.pt/contactos a 18-09-2026. brasfone.pt mostra inubia@brasfone.pt: segundo email, não substitui |
 | Pessoas | José Pina, Head of AI (nunca CEO) · Fábio Igor, CEO · Liliana Viríssimo, Head of Growth | |
 
 ### Desambiguação obrigatória
-No Wikidata e na Wikipédia, "Inúbia" é um instrumento de sopro tupi-guarani (Q10303405), mais o município de Inúbia Paulista, uma povoação e uma página de desambiguação. "Brasfone" não existe lá. Medido a 14-09-2026 pelo Eco (Modo 6), não inferido. Consequência: sempre que a marca é sujeito de uma afirmação factual, escreve-se na forma desambiguada: **"a Inubia, marca do grupo Brasfone"** ou **"a Inubia, consultora de CRM do grupo Brasfone, sediada em Faro"**. Nunca "Inubia" isolado como sujeito de facto. A entidade Wikidata está em curso (tarefa do Fábio `1243w4q4ztf`); quando existir QID, entra aqui e nos `sameAs`.
+No Wikidata e na Wikipédia, "Inúbia" é um instrumento de sopro tupi-guarani (Q10303405), mais o município de Inúbia Paulista, uma povoação e uma página de desambiguação. "Brasfone" não existe lá. Medido a 14-09-2026 pelo Eco (Modo 6), não inferido. Consequência: sempre que a marca é sujeito de uma afirmação factual, escreve-se na forma desambiguada: **"a Inubia, marca do grupo Brasfone"** ou **"a Inubia, consultora de CRM do grupo Brasfone, sediada em Faro"**. Nunca "Inubia" isolado como sujeito de facto. LinkedIn da Inubia: `linkedin.com/company/inubiapt` (200 lido a 18-09; `inubia-pt` dá 404 e é o que está no rodapé do site). Instagram e Facebook: `inubia.pt`. A entidade Wikidata está em curso (tarefa do Fábio `1243w4q4ztf`); quando existir QID, entra aqui e nos `sameAs`.
 
 ## 2. Posicionamento
 
@@ -134,3 +134,4 @@ Domínios a redireccionar, nunca a deixar expirar: `inubia.pt`, `inubia.es`, `gr
 ## 10. Registo de alterações
 - **2026-09-17 · v1.0** · criado a partir da página 4 do doc do Fábio, cruzado com `casos.md`, `cta-canonico.md`, `brasfone-core.md`, o estado do Eco e a memória da casa. Verificados por curl ao HTML servido: +34 518 88 07 58, inubia@inubia.es, Barcelona. Por confirmar: morada, telefone e email PT. Três números do site passados a "pendentes" por não estarem em `casos.md`.
 - **2026-09-17 · v1.1** · os três casos do site verificados por curl ao HTML servido (URLs próprios) e depositados em `casos.md` por ordem de José; 4b esvaziada, 4a ganhou três linhas.
+- **2026-09-18 · v1.2** · contactos PT confirmados no HTML servido (telefone, email, morada); divergência "Filipe" no amperia.pt registada; slug LinkedIn correcto registado.

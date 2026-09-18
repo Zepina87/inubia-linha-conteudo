@@ -229,7 +229,7 @@ Cada peça revista gera uma linha em `~/inubia-conteudo/o-copy/outputs/revisoes.
 ## ONDE VIVE CADA COISA
 | Peça | Onde |
 |---|---|
-| Doutrina | `agents/o-copy/MASTER-PROMPT-COPY.md` (este); a skill `/copy` é pointer |
+| Doutrina | o agente Copy (`~/.claude/agents/copy.md`) (este); a skill `/copy` é pointer |
 | Factos da marca | `~/.claude/marca.md` (donos: José e Liliana) |
 | Portão determinístico | `~/.claude/tools/marca-gate.sh` (portátil) + `fact-gate.sh` + `crm-gate.sh` (casa) |
 | Prova social canónica | `agents/o-cerebro/kb/prova-social/casos.md` |

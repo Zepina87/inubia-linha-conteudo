@@ -179,7 +179,7 @@ Cada pacote revisto gera uma linha em `~/inubia-conteudo/o-rs/outputs/revisoes.m
 ## ONDE VIVE CADA COISA
 | Peça | Onde |
 |---|---|
-| Doutrina | `agents/o-rs/MASTER-PROMPT-RS.md` (este); a skill `/rs` é pointer |
+| Doutrina | o agente RS (`~/.claude/agents/rs.md`) (este); a skill `/rs` é pointer |
 | Factos da marca, canais, cadência | `~/.claude/marca.md` |
 | Portão determinístico | `~/.claude/tools/marca-gate.sh` (portátil) + `fact-gate.sh` (casa) |
 | Peças-mãe | `~/inubia-conteudo/o-copy/outputs/AAAA-MM-DD-<slug>/` |

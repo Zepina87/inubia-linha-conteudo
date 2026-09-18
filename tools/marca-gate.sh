@@ -46,7 +46,7 @@ AVISO=(
 )
 # Linhas que existem PARA proibir o termo não são violação (o mesmo princípio do fact-gate).
 # Ficheiros de doutrina listam os termos proibidos de propósito: não são peças, saltam-se e diz-se.
-IGNORAR_FICH='marca-inubia\.md|/marca\.md$|MASTER-PROMPT|red-list\.md|_backups/|_legado/|\.bak|\.pre-'
+IGNORAR_FICH='marca-inubia\.md|/marca\.md$|MASTER-PROMPT|red-list\.md|_backups/|_legado/|\.bak|\.pre-|/antes\.(html|md)$'
 IGNORAR='nunca|proibid|não existe|n[ãa]o usar|errad|em vez de|marca-gate|❌|⛔|banid|omitir|apanha|regra|gotcha|NÃO|padrão<TAB>|Erradas|foram pagas|é Braga|é Hey Doc|é parceiro|é PARCEIRO'
 
 uso() { sed -n '2,17p' "$0" | sed 's/^# \{0,1\}//'; }
