@@ -334,7 +334,6 @@ de cliente sem verificação na fonte. Citar a nossa própria kb é ecoar, não 
   treino. O que o utilizador vê no ChatGPT produto (com search) não é idêntico — declarar
   sempre esta limitação nos relatórios. Fidelidade sobe quando o job Trigger.dev usar APIs
   nativas com search/grounding (exige chaves próprias, gate José).
-- `OPENROUTER_API_KEY` está marcada para ROTAÇÃO desde 2026-08-04 (fuga para repo GitHub).
   Quando rodar, actualizar env; o job cai sem ela.
 
 ---
